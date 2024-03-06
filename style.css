@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .receipt-container {
+    background-color: #fff;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .receipt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-heading {
+    color: #333;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('logo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+  }
+  
+  .receipt-details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-info,
+  .receipt-financials {
+    flex-basis: 50%;
+  }
+  
+  .receipt-info strong,
+  .receipt-financials strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .receipt-financials strong {
+    color: #ff5733;
+  }
+  
+  @media (max-width: 600px) {
+    .receipt-container {
+      width: 90%;
+    }
+  }
+  
